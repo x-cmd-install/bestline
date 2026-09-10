@@ -1,0 +1,39 @@
+- repo: alpine_edge
+  subrepo: testing
+  srcname: bestline
+  binname: bestline
+  visiblename: bestline
+  version: 0.0_git20211108
+  origversion: 0.0_git20211108-r0
+  status: unique
+  summary: Minimal replacement for readline
+  maintainers:
+    - sebastian@sebsite.pw
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_edge
+  subrepo: testing
+  srcname: bestline
+  binname: bestline-dev
+  visiblename: bestline-dev
+  version: 0.0_git20211108
+  origversion: 0.0_git20211108-r0
+  status: unique
+  summary: Minimal replacement for readline (development files)
+  maintainers:
+    - sebastian@sebsite.pw
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_edge
+  subrepo: testing
+  srcname: bestline
+  binname: bestline-doc
+  visiblename: bestline-doc
+  version: 0.0_git20211108
+  origversion: 0.0_git20211108-r0
+  status: unique
+  summary: Minimal replacement for readline (documentation)
+  maintainers:
+    - sebastian@sebsite.pw
+  licenses:
+    - BSD-2-Clause
